@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>talk details</title>
+		<style>
+			body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 {
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.remark-slide-content h1 { font-size: 3em; }
+.remark-slide-content h2 { font-size: 2em; }
+.remark-slide-content h3 { font-size: 1.6em; }
+.footnote {
+	position: absolute;
+	bottom: 3em;
+}
+li p { line-height: 1.7em; }
+.red { color: #fa0000; }
+.large { font-size: 2em; }
+a, a > code {
+	color: rgb(249, 38, 114);
+	text-decoration: none;
+}
+code {
+	background: none repeat scroll 0 0 #F8F8FF;
+  border: 1px solid #DEDEDE;
+  border-radius: 3px 	;
+  padding: 0 0.2em;
+}
+.remark-code, .remark-inline-code { font-family: "Bitstream Vera Sans Mono", "Courier", monospace; }
+.remark-code-line-highlighted     { background-color: #373832; }
+.pull-left {
+	float: left;
+	width: 47%;
+}
+.pull-right {
+	float: right;
+	width: 47%;
+}
+.pull-right ~ p {
+	clear: both;
+}
+#slideshow .slide .content code {
+	font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+	font-size: 1.2em;
+	padding: 15px;
+}
+.main-title, .title {
+	background: #272822;
+	color: #777872;
+	text-shadow: 0 0 20px #333;
+}
+.title h1, .title h2, .main-title h1, .main-title h2 {
+	color: #f3f3f3;
+	line-height: 0.8em;
+}
+/* Custom */
+.remark-code {
+	display: block;
+	padding: 0.5em;
+}
+.small{
+	font-size: 0.7em;
+	color: rgb(173, 23, 54);
+}
+.strike{
+	color: rgb(173, 23, 54);
+	text-decoration: line-through;
+}
+.slide_nav {
+	position: absolute;
+	left: 20px;
+	bottom: 0.6em;
+}
+
+
+		</style>
+	</head>
+	<body>
+		<textarea id="source">
+
+
+layout: true
+name:footer
+
+.slide_nav[DSTL4 2015-09-09]
+
+---
+template: footer
+class: center, middle, main-title
+
+# BUILDING CAPACITY FOR SCIENCE ON THE WEB &amp; HOW LIBRARIANS CAN HELP
+
+### @IanMulvany - head of technology eLife
+
+---
+template: footer
+class: center, middle, main-title
+# A Catalyist, not an Oracle
+
+
+---
+template: footer
+class: middle
+
+### Wait, what? WHY?
+### What is the internet?
+### Why is it disruptive?
+- Why do journals still exist?
+
+### What can communities achieve with the internet?
+### What of science?
+### What are the pittfalls of this web business?
+### What are the hallmarks of good infrastructure?
+### What can librarians do?
+
+
+---
+template: footer
+class: center, middle, main-title
+
+# WHY?
+
+
+???
+Building anything that gets wide spread usage, and makes a difference is hard, but
+finding, encoraging and supporting engaged communities can make a huge difference.
+
+Good core infrastrucutre can be a huge help, and the librarians role has traditioanlly
+fit execptionally well into the knowledge infrastucture side of the equation, so
+there is a natural fit, and a good fit for the library in helping to build up this capacity.
+
+With that in mind, this talk is going to loosly touch on why we should look to the internet for building up capacity for science, it will talk about the opportunities and challenges that the internet presents.
+
+I'll end by discussing some potential implications of this shift for the library and librarinship.
+
+At the end, I hope that you will have some interesting thoughts to go away with, it turns out that I've been talking a load of old hat, then that's probably not a bad outcome, as it shows that you are probably way ahead of me on this topic anyway!
+
+
+---
+template: footer
+class: center, middle, main-title
+
+# INTERNET?
+
+---
+template: footer
+class: middle
+
+### exposes hypermedia resources that are addressable by unique IDs
+
+### you can put almost anything at the end of one of those IDs
+
+- documents
+	- all history of every change
+		- e.g. a git repo
+		- the bitcoin blockchain
+- data
+	- raw data
+	- Schema.org
+- facts and ideas
+ 	- RDF/RDFa
+- Computations
+	- AWS Lambda
+- atoms
+	- plants
+	- buttons
+	- telescopes
+
+
+```
+There is no cloud, it's just someone else's computer
+```
+
+
+---
+template: footer
+class: center, middle, main-title
+
+# DISRUPTION
+
+
+---
+template: footer
+class: middle
+
+### The cost of entry can be low
+
+- it can also be very expensive
+- pushing bits can start out cheap
+	.small[(and only get expensive when you have probably figured out that it's worth paying for)]
+
+### The cost of entry is looks like it's tied to Moore's law
+
+- Complex things become comodotised, and easier to deploy
+	- Databases as a service
+	- Machine learning as a service
+
+### Reduced costs are coming to manufacturing
+
+- Espresso Book Machine
+- 3D printing
+
+---
+template: footer
+class: center, middle, main-title
+
+# JOURNALs
+## (my eyes, oh god not my eyes)
+
+
+---
+template: footer
+class: middle
+
+## Why are there even journals anymore?
+### Why have their functions not been disrupted?
+
+- Registration
+- Dissemination
+- Certification
+- Archival record
+
+.small[(what could be simpler than just posting ideas to this internet thiny?)]
+
+--
+
+- .strike[Registration] -> Use an id, e.g. email
+- .strike[Dissemination] -> Posting on the web
+- .strike[Certification] -> Comment thread
+- .strike[Archival] -> Internet Archive
+
+
+---
+template: footer
+class: center, main-title
+
+# COMMUNITIES
+
+--
+
+# They are a manifestation of community
+
+--
+
+## Change needs collective action
+
+ c.f. [Sweden 1967 - and driving direction](http://www.wired.com/2014/02/throwback-thursday-sweden/)
+
+???
+
+Shifting behaviour in a large community requires collective action, and collective action is hard without a force for universal coordination (think about what it might be like to make a country change the side of the road that it drove on! c.f. [Sweden 1967](http://www.wired.com/2014/02/throwback-thursday-sweden/))
+
+---
+
+# Manifestations of community exist in the scholarly space
+
+--
+
+#### the department
+
+--
+
+####  the institution
+
+--
+####  the library
+
+.small[the library has the capacity to sit across departments, and to play a trans-institutional role too.]
+
+
+---
+template: footer
+class: center, middle, main-title
+# Harnessing the community
+
+---
+template: footer
+class: middle
+
+- W3C
+- Open Source e.g. Linux, Git, Python
+- Wikipedia
+- Atom editor
+- eLife Lens
+- Github as a tool for community building
+	.small[(the pull request as an act of communication)]
+- JustGiving as a community for charity
+- Kickstarter as a community for creativity
+
+
+---
+template: footer
+class: center, middle, main-title
+
+# SCIENCE
+
+```
+Science can not only be on the web, but it can also be of the web
+```
+
+---
+template: footer
+class: middle
+
+### Data
+
+.small[if there is time talk about scale vs flavor]
+
+### Zooniverse
+
+.small[an engine for creating citizen science projects]
+
+### iPython/Jupyter community
+
+### Open Access community
+
+### Open Malaria Project
+
+### TBL's 5 levels of open data
+
+---
+template: footer
+class: center, middle, main-title
+
+# GOTCHAs
+
+
+---
+
+
+### some are not dissimilar from the challenges on any project
+
+- you need to skill up
+    - some of the upscaling can be like a step function, rather than a gradual ramp
+        - e.g. learning how to write using the vi\vim text editor
+    - (I can't read this perl program means "I wrote this perl program")
+    - finding out if what you did was useful at all can be hard
+    - having too many people with good ideas, and not enough people to actually do the thing to build
+
+--
+
+### some are not particular to the web
+
+- the web is tone deaf, and horribly public
+    - storms can brew quickly in teacups, and people can lose their shit because the distance of type is very low bandwidth, and loses nuance and subtly rapidly
+- so many people are on working on this platform, that things go really fast, so what you are building today was already outdated somewhere else
+- capturing attention for your project becomes a nessecary, but notsufficient condition of success
+
+
+---
+class: center, middle, main-title
+
+# THE PIPING (aka infrastructure)
+
+One of the outcomes when communities get together is they often identify infrastuctural
+needs, though sometimes they need help with obtaining resources or coordinating
+help to create that infrastructure.
+
+---
+
+The infrastructure can take many forms, e.g.
+
+## Social
+
+## Financial
+
+## Participatory
+
+---
+class: middle
+
+# Attributes of good scholarly infrastructure.
+
+- Governance
+- Sustainability
+- Insurance
+- Implementation
+
+[Bilder G, Lin J, Neylon C (2015) Principles for Open Scholarly Infrastructure-v1, retrieved [date], http://dx.doi.org/10.6084/m9.figshare.1314859”](http://dx.doi.org/10.6084/m9.figshare.1314859)
+
+
+---
+class: center, middle, main-title
+
+# THE LIBRARY
+
+---
+class: middle
+
+- hosting of data
+- training
+	- tooling
+	- on data
+	- on standards
+	- on the existence of communities
+- approaches to curation and registration
+- support communities
+	- using your spaces to create of hacker and builder spaces
+	- host a code academy
+- playing a neutral trusted party in the institution
+- managing sensitive data
+- INFRASTRUCUTRE
+
+
+```
+you currently form a part of the infrastructure of knowledge
+```
+
+```
+run with it!
+```
+
+
+---
+class: center, middle, main-title
+
+# THE NEW LIBRARIAN
+
+
+rethink what the core objects are that you are concerned with
+
+think hard about infrastructure
+
+the walls between IT and the librarian needs to get thinner
+
+this is a consequence of sofware eating the world, in what way are you going to take that change and make it work towards your advantage?
+
+
+---
+class: center, middle, main-title
+
+# THE END
+
+
+---
+class: center, middle, main-title
+
+# some other random thoughts
+```
+- structure & curation are expensive
+- their need is based on the fidelity of the questions you are asking of your data
+- machine learning is getting to the point where what we previously thought of as core metadata can now be inferred
+    - google photos magic tags / flick magic tags
+        - [there is still room for terrible errors with these systems](http://www.dailymail.co.uk/sciencetech/article-3145887/Google-apologises-Photos-app-tags-black-people-gorillas-Fault-image-recognition-software-mislabelled-picture.html)
+        - the model that generates these identifications should now be thought of as a first class citizen however such models are proprietary, and they should be in the public domain, where the model concerns you.
+```
+
+		</textarea>
+		<script src="http://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+		<script>
+			var slideshow = remark.create();
+		</script>
+		<script></script>
+	</body>
+</html>
